@@ -6,7 +6,7 @@
 		return await response.json();
 	})();
 
-	const logo = '../static/suited-connector-logo.png';
+	const logo = '/suited-connector-logo.png';
 </script>
 
 <svelte:head>
