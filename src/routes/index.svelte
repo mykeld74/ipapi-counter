@@ -20,7 +20,7 @@
 			<p>...checking</p>
 		{:then data}
 			<p class="used">
-				We have made <span class="number">{(6000000 - data.available).toLocaleString()}</span> requests.
+				We have made <span class="number">{(15000000 - data.available).toLocaleString()}</span> requests.
 			</p>
 			<p class-="unused">
 				We have <span class="number">{data.available.toLocaleString()}</span> requests remaining.
